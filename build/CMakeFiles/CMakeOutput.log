@@ -1,0 +1,87 @@
+The system is: Darwin - 15.2.0 - x86_64
+Determining size of void* passed with the following output:
+Change Dir: /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b1d9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7b1d9.dir/build.make CMakeFiles/cmTC_7b1d9.dir/build
+Building C object CMakeFiles/cmTC_7b1d9.dir/OGRE_PTR_SIZE.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_7b1d9.dir/OGRE_PTR_SIZE.c.o   -c /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CheckTypeSize/OGRE_PTR_SIZE.c
+Linking C executable cmTC_7b1d9
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b1d9.dir/link.txt --verbose=1
+/usr/bin/clang    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7b1d9.dir/OGRE_PTR_SIZE.c.o  -o cmTC_7b1d9  
+
+
+Performing C++ SOURCE FILE Test OGRE_GCC_HAS_SSE succeded with the following output:
+Change Dir: /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5cc5/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c5cc5.dir/build.make CMakeFiles/cmTC_c5cc5.dir/build
+Building CXX object CMakeFiles/cmTC_c5cc5.dir/src.cxx.o
+/usr/bin/clang++     -DOGRE_GCC_HAS_SSE   -msse -o CMakeFiles/cmTC_c5cc5.dir/src.cxx.o -c /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c5cc5
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5cc5.dir/link.txt --verbose=1
+/usr/bin/clang++    -DOGRE_GCC_HAS_SSE -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c5cc5.dir/src.cxx.o  -o cmTC_c5cc5  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OGRE_GCC_VISIBILITY succeded with the following output:
+Change Dir: /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6db3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b6db3.dir/build.make CMakeFiles/cmTC_b6db3.dir/build
+Building CXX object CMakeFiles/cmTC_b6db3.dir/src.cxx.o
+/usr/bin/clang++     -msse -msse2 -Wall -Winit-self -Wno-overloaded-virtual -Wcast-qual -Wwrite-strings -Wextra -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -DOGRE_GCC_VISIBILITY   -fvisibility=hidden -o CMakeFiles/cmTC_b6db3.dir/src.cxx.o -c /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b6db3
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6db3.dir/link.txt --verbose=1
+/usr/bin/clang++    -msse -msse2 -Wall -Winit-self -Wno-overloaded-virtual -Wcast-qual -Wwrite-strings -Wextra -Wno-unused-parameter -Wshadow -Wno-missing-field-initializers -Wno-long-long -DOGRE_GCC_VISIBILITY -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b6db3.dir/src.cxx.o  -o cmTC_b6db3  
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1995d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1995d.dir/build.make CMakeFiles/cmTC_1995d.dir/build
+Building C object CMakeFiles/cmTC_1995d.dir/CheckIncludeFile.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_1995d.dir/CheckIncludeFile.c.o   -c /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1995d
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1995d.dir/link.txt --verbose=1
+/usr/bin/clang    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1995d.dir/CheckIncludeFile.c.o  -o cmTC_1995d  
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8a82/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e8a82.dir/build.make CMakeFiles/cmTC_e8a82.dir/build
+Building C object CMakeFiles/cmTC_e8a82.dir/CheckIncludeFile.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_e8a82.dir/CheckIncludeFile.c.o   -c /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e8a82
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8a82.dir/link.txt --verbose=1
+/usr/bin/clang    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e8a82.dir/CheckIncludeFile.c.o  -o cmTC_e8a82  
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70742/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_70742.dir/build.make CMakeFiles/cmTC_70742.dir/build
+Building C object CMakeFiles/cmTC_70742.dir/CheckIncludeFile.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_70742.dir/CheckIncludeFile.c.o   -c /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_70742
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70742.dir/link.txt --verbose=1
+/usr/bin/clang    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_70742.dir/CheckIncludeFile.c.o  -o cmTC_70742  
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68fed/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_68fed.dir/build.make CMakeFiles/cmTC_68fed.dir/build
+Building C object CMakeFiles/cmTC_68fed.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_68fed.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_68fed
+/usr/local/Cellar/cmake/3.4.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68fed.dir/link.txt --verbose=1
+/usr/bin/clang    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_68fed.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_68fed  
+
+

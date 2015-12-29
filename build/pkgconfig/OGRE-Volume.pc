@@ -1,0 +1,11 @@
+prefix=/Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/sdk
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: OGRE-Volume
+Description: Voxel based terrain component for OGRE
+Version: 2.0.0unstable
+Requires: OGRE = 2.0.0unstable
+Libs: -L${libdir} -lOgreVolume
+Cflags: -I${includedir}/OGRE/Volume -pthread

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+57a4dc8df25fc2b5f759f6d2f1d4fe59 Docs/CMakeFiles/OgreDoc

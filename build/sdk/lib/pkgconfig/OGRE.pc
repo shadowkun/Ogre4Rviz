@@ -1,0 +1,12 @@
+prefix=/Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/sdk
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+plugindir=${libdir}/OGRE
+
+Name: OGRE
+Description: Object-Oriented Graphics Rendering Engine
+Version: 2.0.0unstable
+URL: http://www.ogre3d.org
+Libs: -L${libdir} -lOgreMain  -lpthread
+Cflags: -I${includedir} -I${includedir}/OGRE -pthread

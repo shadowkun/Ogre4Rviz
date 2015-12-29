@@ -1,0 +1,4 @@
+You will find Ogre.framework in 'lib' within your build directory. You can embed this in your application bundle, or drag it to /Library/Frameworks for system-wide installation. 
+
+You will also find plugins (Plugin_*.dylib and RenderSystem_GL.dylib) in the same location, you can copy these to the framework's Resource directory or your own application's bundle. Be sure to configure you applications' plugins.cfg to match (e.g. /Library/Frameworks/Ogre.framework/Resources/)
+

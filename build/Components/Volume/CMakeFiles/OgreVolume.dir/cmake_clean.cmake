@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeCacheSource.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeChunk.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeChunkHandler.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeCSGSource.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeDualGridGenerator.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeGridSource.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeHalfFloatGridSource.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeIsoSurface.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeIsoSurfaceMC.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeIsoSurfaceTablesMC.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeMeshBuilder.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeOctreeNode.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeOctreeNodeSplitPolicy.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumePrerequisites.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeSimplexNoise.h"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/Headers/OgreVolumeSource.h"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeCacheSource.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeChunk.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeChunkHandler.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeCSGSource.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeDualGridGenerator.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeGridSource.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeHalfFloatGridSource.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeIsoSurface.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeIsoSurfaceMC.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeMeshBuilder.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeOctreeNode.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeOctreeNodeSplitPolicy.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeSimplexNoise.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeSource.cpp.o"
+  "CMakeFiles/OgreVolume.dir/src/OgreVolumeTextureSource.cpp.o"
+  "../../lib/macosx/OgreVolume.framework/OgreVolume.pdb"
+  "../../lib/macosx/OgreVolume.framework/OgreVolume"
+  "../../lib/macosx/OgreVolume.framework/Versions/2.0.0/OgreVolume"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/OgreVolume.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

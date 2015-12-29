@@ -1,0 +1,11 @@
+prefix=/Users/yankunzhen/Downloads/ogre21/sinbad-ogre/build/sdk
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: OGRE-Overlay
+Description: Overlay component for OGRE
+Version: 2.0.0unstable
+Requires: OGRE = 2.0.0unstable
+Libs: -L${libdir} -lOgreOverlay
+Cflags: -I${includedir}/OGRE/Overlay -pthread
